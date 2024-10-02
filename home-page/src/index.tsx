@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CardContainer from './ProgramLevel/CardContainer'; 
-import SectionTitle from './ProgramLevel/SectionTitle';
 
-ReactDOM.render(
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement);
+root.render(
     <React.StrictMode>
-        <CardContainer />
-        
-    </React.StrictMode>,
-    document.getElementById('root')
+        <HomePage />
+    </React.StrictMode>
+
 );
