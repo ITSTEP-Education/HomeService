@@ -1,0 +1,87 @@
+.top-section-container {
+    width: 1156px;
+    height: 582px;
+    background-color: #1E1E1E;
+    position: relative; 
+    margin: 50px 0 0 60px; 
+}
+
+.logos {
+    position: absolute; 
+    display: flex; 
+}
+
+.logo {
+    border-radius: 4px; 
+    border: 5px solid white; 
+}
+
+.logo:nth-child(1) {
+    width: 219px; 
+    height: 207px; 
+    position: absolute;
+    left: 600px;
+    top: 70px; 
+}
+
+.logo:nth-child(2) {
+    width: 327px; 
+    height: 242px; 
+    position: absolute;
+    left: 799px; 
+    top: 214px; 
+}
+
+.logo:nth-child(3) {
+    width: 49px; 
+    height: 49px; 
+    position: absolute;
+    left: 90px; 
+    top: 450px; 
+    border: none;
+}
+
+
+.logo:nth-child(4) {
+    width: 49px; 
+    height: 49px; 
+    position: absolute;
+    left: 90px;
+    top: 470px; 
+    border: none;
+}
+
+.text-section {
+    color: white; 
+    margin-left: 45px; 
+    position: absolute;
+    margin-top: 20px;
+    line-height: 1.5; 
+    font-size: 18px; 
+    overflow-wrap: break-word; 
+}
+
+.start-button {
+    background-color: #F24822; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    position: absolute;
+    margin-top:110px;
+}
+
+
+@keyframes moveDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50px); 
+    }
+}
+
+.logo.animate {
+    animation: moveDown 0.5s forwards; }
