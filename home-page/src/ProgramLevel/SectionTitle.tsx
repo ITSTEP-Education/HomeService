@@ -1,9 +1,8 @@
-// src/MyComponent/SectionTitle.tsx
 import React from 'react';
-import './styles/SectionTitle.css'; // Создадим стили для заголовка
+import './styles/SectionTitle.css'; 
 
 interface SectionTitleProps {
-    text: string; // Текст заголовка
+    text: string; 
 }
 
 const SectionTitle: React.FC<SectionTitleProps> = ({ text }) => {

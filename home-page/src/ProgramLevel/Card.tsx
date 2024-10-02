@@ -1,11 +1,10 @@
-// src/MyComponent/Card.tsx
 import React from 'react';
 import './styles/Card.css';
 
 interface CardProps {
-    imageSrc: string; // Путь к изображению
+    imageSrc: string; 
     
-    buttons: string[]; // Кнопки
+    buttons: string[];
 }
 
 const Card: React.FC<CardProps> = ({ imageSrc, buttons }) => {
