@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <p>HomePage</p>
+    <p>test page</p>
   </React.StrictMode>
 );
 
