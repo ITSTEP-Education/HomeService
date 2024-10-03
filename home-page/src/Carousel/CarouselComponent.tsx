@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+//import 'bootstrap/dist/css/bootstrap.min.css'
 import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
 import { CarouselContainer, ControlIcon, IndicatorDot, IndicatorWrapper } from './CarouselStyles';
